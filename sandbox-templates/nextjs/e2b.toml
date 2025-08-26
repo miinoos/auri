@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (5srjrqroni1jubsamd2b) or template name (auri-nextjs-test-2) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("auri-nextjs-test-2") # Sync sandbox
+# sandbox = await AsyncSandbox.create("auri-nextjs-test-2") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('auri-nextjs-test-2')
+
+team_id = "a9a9155b-491b-4b57-bd20-43e537b77bc7"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "auri-nextjs-test-2"
+template_id = "5srjrqroni1jubsamd2b"
